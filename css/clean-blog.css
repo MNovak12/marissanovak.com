@@ -6,7 +6,8 @@
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
-  color: #333333;
+  color: MidnightBlue;
+  background: url("../img/blue.jpg")
 }
 p {
   line-height: 1.5;
@@ -139,8 +140,7 @@ hr.small {
 }
 .intro-header {
   background-color: #777777;
-  /*background: url(../img/354H.jpg) no-repeat center center;*/
-  background: no-repeat center center;
+  background: url(../img/354H.jpg) no-repeat center center;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -155,7 +155,7 @@ hr.small {
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  color: white;
+  color: DarkBlue;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -272,8 +272,20 @@ hr.small {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+.carousel-inner {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-control.right {
+  background-image: none;
+}
 footer {
   padding: 50px 0 65px;
+  background-image: url("../img/blue2.jpg");
 }
 footer .list-inline {
   margin: 0;
