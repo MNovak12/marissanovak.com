@@ -272,16 +272,15 @@ hr.small {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.carousel-inner {
-  display: block;
-  margin: auto;
-  width: 30%;
-}
 .carousel-control.left {
   background-image: none;
 }
 .carousel-control.right {
   background-image: none;
+}
+.col-xs-6 {
+  width: 50%;
+  height: 50%;
 }
 footer {
   padding: 50px 0 65px;
