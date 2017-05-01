@@ -3,11 +3,15 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+ *{
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ }
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
-  color: MidnightBlue;
-  background: url("../img/blue.jpg")
+  color: Black;
+  /*background: url("../img/blue.jpg")*/
 }
 p {
   line-height: 1.5;
@@ -22,8 +26,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
 a {
   color: #333333;
@@ -139,8 +143,8 @@ hr.small {
   }
 }
 .intro-header {
-  background-color: #777777;
-  background: url(../img/354H.jpg) no-repeat center center;
+  background-color: LightGrey;
+  background: url(../img/DSC_4323.jpg) no-repeat center center;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -155,7 +159,7 @@ hr.small {
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  color: DarkBlue;
+  color: White;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
