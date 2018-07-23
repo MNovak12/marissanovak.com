@@ -1,0 +1,3 @@
+[submodule "v2/marissanovak/themes/coder"]
+	path = v2/marissanovak/themes/coder
+	url = https://github.com/luizdepra/hugo-coder.git
